@@ -51,7 +51,7 @@ export default function Home() {
             Transform Your Learning Experience
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            Join thousands of students learning with EduWave's interactive courses and expert instructors.
+            Join thousands of students learning with EduWave&apos;s interactive courses and expert instructors.
           </p>
           <div className="space-x-4">
             <Link 
