@@ -14,7 +14,8 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} bg-gray-50`}>
         <main className="min-h-screen">
           {children}
-          <script src="https://blendstake.vercel.app/embed.js" data-agent-id="Rv2fLuIa0bpcVOvtaCkH"></script>
+          <script async src="https://blendstake.vercel.app/embed.js" data-agent-id="Rv2fLuIa0bpcVOvtaCkH" />
+          {/* <script src="https://blendstake.vercel.app/embed.js" data-agent-id="CEttJhWZZL1nYmDIgPEk"></script> */}
         </main>
       </body>
     </html>
