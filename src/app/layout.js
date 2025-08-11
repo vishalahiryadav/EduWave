@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'EduWave - Modern Learning Platform',
-  description: 'Transform your learning experience with EduWave',
+  description: 'Transform your learnings experience with EduWave',
 };
 
 export default function RootLayout({ children }) {
