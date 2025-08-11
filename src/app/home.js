@@ -19,23 +19,23 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <Link href="/" className="text-2xl font-bold text-indigo-600">
+              <Link href="/" className="text-2xl font-bold text-stone-800">
                 EduWave
               </Link>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <Link href="/courses" className="text-gray-700 hover:text-indigo-600 transition">
+              <Link href="/courses" className="text-stone-700 hover:text-stone-900 transition">
                 Courses
               </Link>
-              <Link href="/about" className="text-gray-700 hover:text-indigo-600 transition">
+              <Link href="/about" className="text-stone-700 hover:text-stone-900 transition">
                 About
               </Link>
-              <Link href="/contact" className="text-gray-700 hover:text-indigo-600 transition">
+              <Link href="/contact" className="text-stone-700 hover:text-stone-900 transition">
                 Contact
               </Link>
               <Link 
                 href="/login" 
-                className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition"
+                className="bg-stone-800 text-white px-4 py-2 rounded-md hover:bg-stone-900 transition"
               >
                 Log in
               </Link>
@@ -45,7 +45,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-indigo-600 to-indigo-400 text-white py-20">
+      <section className="bg-gradient-to-r from-stone-700 to-stone-500 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Transform Your Learning Experience
@@ -56,7 +56,7 @@ export default function Home() {
           <div className="space-x-4">
             <Link 
               href="/signup" 
-              className="bg-white text-indigo-600 px-8 py-3 rounded-lg font-medium text-lg hover:bg-gray-100 transition inline-block"
+              className="bg-white text-stone-800 px-8 py-3 rounded-lg font-medium text-lg hover:bg-stone-50 transition inline-block"
             >
               Get Started
             </Link>
@@ -111,7 +111,7 @@ export default function Home() {
           </p>
           <Link 
             href="/signup" 
-            className="bg-indigo-600 text-white px-8 py-3 rounded-lg font-medium text-lg hover:bg-indigo-700 transition inline-block"
+            className="bg-stone-800 text-white px-8 py-3 rounded-lg font-medium text-lg hover:bg-stone-900 transition inline-block"
           >
             Create Free Account
           </Link>
